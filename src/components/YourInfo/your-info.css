@@ -1,0 +1,71 @@
+.your-info {
+    position: relative;
+    height: 100%;
+    width: 390px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.your-info h1 {
+    color: var(--marineBlue);
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.your-info p {
+    color: var(--coolGray);
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.your-info .input-div {
+    margin-bottom: 20px;
+}
+
+.your-info-form .input-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.your-info-form .input-text span {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--strawberryRed);
+}
+
+.your-info-form label {
+    display: inline-block;
+    color: var(--marineBlue);
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.your-info-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--coolGray);
+    border-radius: 10px;
+    color: var(--marineBlue);
+    font-weight: 700;
+}
+
+.your-info-form input:focus {
+    border: none;
+    outline: 1px solid var(--purplishBlue);
+}
+
+.your-info-form button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.input-error {
+    border: 1px solid var(--strawberryRed) !important;
+}
+
+.input-error:focus {
+    outline: none !important;
+}

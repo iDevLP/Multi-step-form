@@ -1,0 +1,27 @@
+.thanks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 100%;
+    margin: auto;
+}
+
+.thanks img {
+    display: block;
+    margin: auto;
+}
+
+.thanks h1 {
+    color: var(--marineBlue);
+    font-weight: 700;
+    font-size: 25px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.thanks p {
+    text-align: center;
+    font-size: 14px;
+    color: var(--coolGray);
+}

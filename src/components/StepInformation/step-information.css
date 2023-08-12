@@ -1,0 +1,9 @@
+.step-information{
+    width: 217px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0px 15px 15px;
+    background-image: url("../../assets/images/bg-sidebar-desktop.svg");
+    background-size: contain;
+}
